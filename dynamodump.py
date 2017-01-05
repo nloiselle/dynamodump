@@ -11,6 +11,7 @@ import errno
 import sys
 import time
 import re
+import boto3
 from boto.dynamodb2.layer1 import DynamoDBConnection
 
 JSON_INDENT = 2
